@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Redirecting...</title>
+  <script>
+    const pathSegments = window.location.pathname.split('/');
+    const repoName = 'Sivita-Jets';
+    const newPath = '/' + repoName + window.location.pathname + window.location.search + window.location.hash;
+    window.location.href = newPath;
+  </script>
+</head>
+<body>
+  <p>Redirecting to Sivita Jets...</p>
+</body>
+</html>
